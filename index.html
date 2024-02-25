@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+    <!--Here is the code for my navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <!--Here I added branding with an image and text-->
+            <a class=navbar-brand href="index.html">
+                <img src="images/thdvrn.jpg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                THDVRN
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">My Favorites</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="MediaRecs.html">Current Season Recs</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container text-center text-wrap">
+        <!--Using containers to center content-->
+        <div class="container">
+            <img src="images/deveron.jpg" alt="Profile Pic">
+        </div>
+        <div class="border border-primary rounded m-5">
+            <div>
+                <h2>Favorite Manga</h2>
+            </div>
+            <!--Using rows and columns to create grids. Used medium breakpoints here do to text wrapping and split widths evenly based on content in each section-->
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://cdn.myanimelist.net/images/manga/2/253146.jpg" class="card-img-top" alt="One Piece">
+                        <div class="card-body">
+                            <p class="card-text">One Piece</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://cdn.myanimelist.net/images/manga/3/80661.jpg" class="card-img-top" alt="One Punch Man">
+                        <div class="card-body">
+                            <p class="card-text">One Punch Man</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://cdn.myanimelist.net/images/manga/3/180031.jpg" class="card-img-top" alt="Bleach">
+                        <div class="card-body">
+                            <p class="card-text">Bleach</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://cdn.myanimelist.net/images/manga/1/186436.jpg" class="card-img-top" alt="Monster Arms Dealer">
+                        <div class="card-body">
+                            <p class="card-text">Monster Arms Dealer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="border border-primary rounded m-5">
+            <div>
+                <h2>Favorite Manhwa</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="https://cdn.myanimelist.net/images/manga/2/238873.jpg" class="card-img-top" alt="Omniscient Reader">
+                        <div class="card-body">
+                            <p class="card-text">Omniscient Reader</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="https://cdn.myanimelist.net/images/manga/3/243483.jpg" class="card-img-top" alt="Northern Blade">
+                        <div class="card-body">
+                            <p class="card-text">Legend of the Northern Blade</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="https://cdn.myanimelist.net/images/manga/1/264454.jpg" class="card-img-top" alt="Murim Login">
+                        <div class="card-body">
+                            <p class="card-text">Murim Login</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="https://store.crunchyroll.com/on/demandware.static/-/Sites-crunchyroll-master-catalog/default/dw0ec921bb/rightstuf/9798400900518_manhwa-overgeared-manhwa-volume-1-primary.jpg" class="card-img-top" alt="Overgeared">
+                        <div class="card-body">
+                            <p class="card-text">Overgeared</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="https://cdn.myanimelist.net/images/manga/2/275074.jpg" class="card-img-top" alt="Mount Hua">
+                        <div class="card-body">
+                            <p class="card-text">Return of the Blossoming Blade</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="https://cdn.myanimelist.net/images/manga/3/222295.jpg" class="card-img-top" alt="Solo Levling">
+                        <div class="card-body">
+                            <p class="card-text">Solo Leveling</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="border border-primary rounded m-5">
+            <div>
+                <h2>Favorite Anime</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="https://cdn.myanimelist.net/images/anime/1244/138851.jpg" class="card-img-top" alt="One Piece">
+                        <div class="card-body">
+                            <p class="card-text">One Piece</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="https://cdn.myanimelist.net/images/anime/1015/138006.jpg" class="card-img-top" alt="Frieren">
+                        <div class="card-body">
+                            <p class="card-text">Frieren: Beyond Journey's End</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="https://cdn.myanimelist.net/images/anime/1908/135431.jpg" class="card-img-top" alt="Bleach:TYBW">
+                        <div class="card-body">
+                            <p class="card-text">Bleach: Thousand-Year Blood War</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="https://cdn.myanimelist.net/images/anime/1171/109222.jpg" class="card-img-top" alt="Jujutsu Kaisen">
+                        <div class="card-body">
+                            <p class="card-text">Jujutsu Kaisen</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="https://cdn.myanimelist.net/images/anime/12/76049.jpg" class="card-img-top" alt="One Punch Man">
+                        <div class="card-body">
+                            <p class="card-text">One Punch Man</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <img src="https://cdn.myanimelist.net/images/anime/1384/136408.jpg" class="card-img-top" alt="Zom 100">
+                        <div class="card-body">
+                            <p class="card-text">Zom 100: Bucket List of the Dead</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <!--Added in a form so others can submit recommendations-->
+            <form>
+                <div class="mb-3">
+                    <label for="YourName" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="Name">
+                </div>
+                <div class="mb-3">
+                    <label for="Recommendations" class="form-label">Your Anime/Manga/Manhwa Recommendations</label>
+                    <input type="text" class="form-control" id="Recommendations">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
